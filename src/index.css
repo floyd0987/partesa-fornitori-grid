@@ -12,3 +12,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: DodgerBlue; */
+}
+
+.flex-container > li {
+
+  width: 14%;
+  margin: 1%;
+  text-align: center;
+  list-style-type: none;
+}
+
+.flex-container img {
+  width: 100%;
+}
